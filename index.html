@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+
+<body>
+    <div class="main-container">
+
+        <div class="search-container">
+            <input class="search-box" type="text" placeholder="search city">
+            <button class="search-city"><span class="material-symbols-outlined">
+                    search
+                </span></button>
+        </div>
+
+        <div class="message-img">
+            <img src="/assets/message/search-city.png" alt="" class="message-picture">
+
+        </div>
+
+
+        <div class="current-weather-info">
+
+
+            <div class="location-desc">
+                <span class="location-icon"><img src="/assets/icon/location.png" alt=""></span>
+                <p class="location-name"></p>
+
+            </div>
+            <div class="weather-display">
+                <div>
+                    <div class="weather-img">
+                        <img src="" alt="" class="weather-picture">
+                    </div>
+                </div>
+
+               <div class="weather-temp">
+                    <p class="temperature-value" id="current-temperature"></p>
+               </div>
+
+            </div>
+
+           
+            <div class="weather-summary">
+                <div class="humidity-info">
+                    <img src="/assets/icon/water.png" alt="" class="humidity-img">
+                    <div>
+                        <p class="humidity-details" id="current-humidity"></p>
+                        <p class="humidity-name">Humidity</p>
+                    </div>
+                </div>
+                <div class="wind-info">
+                    <img src="/assets/icon/air.png" alt="" class="wind-speed-img">
+                    <div>
+                        <p class="speed-details" id="current-wind-speed"></p>
+                        <p class="speed-name">Wind Speed</p>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>
